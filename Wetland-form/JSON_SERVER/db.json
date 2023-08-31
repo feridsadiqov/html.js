@@ -1,0 +1,23 @@
+{
+    "user":[
+  
+        {
+            "id":0,
+            "Name":"Tom",
+            "Mail":"Packaal@gmail.com",
+            "Mobile":"0021589898"
+        },
+        {
+            "id":1,
+            "Name":"John",
+            "Mail":"Packaal@gmail.com",
+            "Mobile":"0079995226"
+        },
+        {
+            "id":2,
+            "Name":"Jane",
+            "Mail":"Packaal@gmail.com",
+            "Mobile":"001578924563"
+        }
+    ]
+}
