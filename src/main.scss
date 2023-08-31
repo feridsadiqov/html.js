@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  margin: 50px;
+    padding: 0px 28px 40px;
+    .header{
+        font-size: x-large;
+        padding: 15px;
+    }
+    
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+
+
+
+}
+.post-1 {
+ 
+    @media (min-width:576px) {
+        
+        width: 50%;
+       }
+    @media (min-width:768px) {
+        width: 33.33%;
+       }
+    @media (min-width:992px) {
+        width: 25%;
+       }
+    @media (min-width:1200px) {
+        width: 14%;
+       }
+    @media (min-width:1400px) {
+        width: calc(100% / 6);
+       }
+    @media (min-width:1400px) {
+        width: calc(100% / 7);
+       }
+    
+    width: 100%;
+    padding: 10px;
+    .card-img{
+      height: 200px;
+      display: inline-block;
+      img {
+        object-fit: cover;
+        width:100%;
+        height: 100%;
+      }
+    }
+    
+
+  
+}
